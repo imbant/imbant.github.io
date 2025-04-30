@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tailwind.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+</head>
+
+<body>
+    <main class="flex-1 w-full"> <!-- Hero Section -->
+        <div class="relative overflow-hidden"> <!-- Background -->
+            <div class="absolute inset-0">
+                <div class="absolute inset-0 bg-gradient-to-b from-stone-100/50 via-stone-50/50 to-transparent"></div>
+                <div
+                    class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(0,0,0,0.02),transparent_70%)]">
+                </div>
+            </div>
+            <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="py-16 sm:py-24 md:py-32"> <!-- Welcome -->
+                    <div class="relative mb-8 sm:mb-12">
+                        <div class="inline-flex items-center gap-3"> <span class="w-8 h-px bg-stone-200"></span> <span
+                                class="font-mono text-sm text-stone-500 tracking-tight"></span> </div>
+                    </div> <!-- Title -->
+                    <div class="relative max-w-4xl mb-8 sm:mb-12">
+                        <h1
+                            class="font-primary text-4xl sm:text-6xl md:text-7xl text-stone-900 leading-[1.15] tracking-tight">
+                            <span class="relative inline-block"> imbAnt </span>
+                        </h1>
+                    </div> <!-- Description -->
+                    <div class="relative max-w-xl space-y-6 sm:space-y-8 md:space-y-12">
+                        <div class="relative">
+                            <p class="text-base sm:text-lg text-stone-600 leading-relaxed"> Build frontend apps,
+                                language servers, and more</p>
+                        </div> <!-- Actions -->
+                        <div class="flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-8 md:gap-12"> <a
+                                href="/blog/about" class="group inline-flex items-center gap-3"> <span
+                                    class="font-mono text-sm text-stone-600 group-hover:text-stone-900 transition-colors duration-300">About
+                                    me</span> <span
+                                    class="w-6 sm:w-8 h-px bg-stone-200 group-hover:w-12 group-hover:bg-stone-300 transition-all duration-300"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Bottom border -->
+            <div
+                class="absolute bottom-0 w-full h-px bg-gradient-to-r from-transparent via-stone-200/50 to-transparent">
+            </div>
+        </div> <!-- Recent Posts Section -->
+    </main>
+</body>
+
+</html>

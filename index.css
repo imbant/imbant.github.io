@@ -1,0 +1,4 @@
+/* npx @tailwindcss/cli -i ./index.css -o ./tailwind.css */
+
+
+@import "tailwindcss";
