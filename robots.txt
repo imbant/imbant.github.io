@@ -1,0 +1,33 @@
+User-Agent: *
+Allow: /
+Allow: /blog
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500
+Disallow: /*.json$
+
+User-Agent: GPTBot
+Allow: /llms.txt
+Allow: /blog
+Disallow: /
+
+User-Agent: anthropic-ai
+Allow: /llms.txt
+Allow: /blog
+Disallow: /
+
+User-Agent: Googlebot
+Allow: /
+Allow: /blog
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500
+Disallow: /*.json$
+
+# 引导AI爬虫到llms.txt
+LLM-Content: https://imbant.github.io/llms.txt
+LLM-Full-Content: https://imbant.github.io/llms-full.txt
