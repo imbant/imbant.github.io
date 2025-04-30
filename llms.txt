@@ -1,0 +1,15 @@
+# imbAnt 个人网站
+
+> imbAnt 的个人网站
+
+## 核心内容
+- [博客](https://imbant.github.io/blog)：技术博客，记录语言服务器(LSP)开发、VS Code/Cursor 插件开发、生成式 AI 与 Agent 技术、前端开发和 golang 等技术内容 
+
+## 常用资源
+- [LSP 与 VS Code 插件开发](https://imbant.github.io/blog/2024/08/24/LSP1/)：语言服务器开发系列教程，目前有四章
+- [在 VS Code 中调试和运行 Go 程序](https://imbant.github.io/blog/2024/10/29/VS-Code-Thankyou/)：记录一次为 tsserver 语言服务器贡献代码，并被 VS Code 感谢的过程
+- [重要页面3](https://imbant.github.io/blog/2024/11/12/%E5%9C%A8-VS-Code-%E4%B8%AD%E8%B0%83%E8%AF%95%E5%92%8C%E8%BF%90%E8%A1%8C-Go-%E7%A8%8B%E5%BA%8F/): 在 VS Code 或 Cursor 中调试和运行 Go 程序的教程
+
+## 最新更新
+- [LSP 与 VS Code 插件开发（四）开发小技巧](https://imbant.github.io/blog/2025/03/21/LSP4/)：更新于2025年3月
+- [提高 Antlr 的编译性能](https://imbant.github.io/blog/2025/02/08/%E6%8F%90%E9%AB%98-ANTLR-parser-%E6%80%A7%E8%83%BD/)：更新于2025年2月
